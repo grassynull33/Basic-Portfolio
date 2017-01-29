@@ -1,0 +1,31 @@
+@import "reset.css";
+
+p, ul, small {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+h1 {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#main-content {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+footer {
+	background-color: #666666;
+}
