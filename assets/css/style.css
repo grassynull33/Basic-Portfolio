@@ -1,29 +1,46 @@
 @import "reset.css";
 
+html { 
+  background: url(../images/pw_maze_white.png) repeat;
+}
+
 h1 {
 	color: #ffffff;
 	background-color: #4aaaa5;
 	font-size: 36px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	float: left;
-	padding: 20px 30px 20px 30px;
+	padding: 20px 40px 20px 40px;
 }
 
 h2 {
 	color: #4aaaa5;
-	font-size: 24px;
+	font-size: 28px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 30px;
 }
 
 h3 {
 	color: #4aaaa5;
-	font-size: 20px;
+	font-size: 22px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 30px;
 }
 
-p, nav > ul > li, footer > small {
+p, nav > ul > li {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer > small {
+	color: #ffffff;
+	font-size: 12px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+	padding: 10px 30px 30px 30px;
+	line-height: 2;
 }
 
 nav > ul {
@@ -33,7 +50,12 @@ nav > ul {
 
 nav > ul > li {
 	display: inline;
-	margin-left: 30px;
+}
+
+nav > ul > li:not(:last-child) {
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #efefef;
 }
 
 nav > ul > li > a {
@@ -46,7 +68,7 @@ a:visited, a:hover, a:active {
 
 header {
 	background-color: #ffffff;
-	border: 1px solid #cccccc;
+	border: 2px solid #cccccc;
 }
 
 #main-content {
@@ -54,6 +76,7 @@ header {
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
 	float: left;
+	margin-top: 30px;
 }
 
 #sidebar {
@@ -61,6 +84,28 @@ header {
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
 	float: right;
+	margin-top: 30px;
+}
+
+hr {
+	margin: 0 29px 5px 29px;
+	height: 3px;
+	background: #efefef;
+	border: none;
+}
+
+#mini-hr {
+	margin: -9px 29px 5px 29px;
+	height: 1px;
+	background: #efefef;
+	border: none;
+}
+
+#footer-accent {
+	height: 9px;
+	background-color: #4aaaa5;
+	position: relative;
+	top: -30px;
 }
 
 footer {
@@ -69,6 +114,8 @@ footer {
 	position: absolute;
 	bottom: 0px;
 	clear: both;
+	text-align: center;
+	padding: 30px 0 30px 0;
 }
 
 .content-area {
@@ -79,4 +126,34 @@ footer {
 
 .clearfix {
 	overflow: auto;
+}
+
+#headshot {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 20px 30px 30px 30px;
+}
+
+#icon-container {
+	width: 178px;
+	margin: auto;
+}
+
+#github-icon {
+	width: 50px;
+	height: 50px;
+	margin: 20px 0 25px 0;
+}
+
+#linkedin-icon {
+	width: 50px;
+	height: 50px;
+	margin: 20px 0 25px 10px;
+}
+
+#stackoverflow-icon {
+	width: 50px;
+	height: 50px;
+	margin: 20px 0 25px 10px;
 }
