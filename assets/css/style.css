@@ -16,7 +16,7 @@ h1 {
 
 h2 {
 	color: #4aaaa5;
-	font-size: 28px;
+	font-size: 36px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 30px;
 }
@@ -64,8 +64,8 @@ nav > ul > li > a {
 	text-decoration: none;
 }
 
-a:visited, a:hover, a:active {
-	color: #777777;
+nav > ul > li > a:hover, nav > ul > li > a:active {
+	color: #4aaaa5;
 }
 
 header {
@@ -210,6 +210,11 @@ input[type=submit] {
     width: 125px;
 }
 
+input[type=submit]:active, input[type=submit]:hover {
+	color: #4aaaa5;
+    background: #666666;
+}
+
 .proj-div {
 	width: 275px;
 	height: 200px;
@@ -227,6 +232,12 @@ input[type=submit] {
 	text-decoration: none;
 	position: relative;
 	bottom: 75px;
+}
+
+.proj-div > a:hover, .proj-div > a:active {
+	color: #4aaaa5;
+	background: #ffffff;
+
 }
 
 #empty {
